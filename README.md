@@ -7,7 +7,7 @@ Within the Black Duck user interface 'Admin' section there is a 'System Informat
 This is a bash script and has dependencies on jq and curl being installed.
 
 # To use
-
+NOTE the API_TOKEN has to be from a user with sysadmin privileges.
 ```
 ./blackduck_debug.sh -u https://myblackduck -a <api_token> -f <output_file.txt>
 ```
