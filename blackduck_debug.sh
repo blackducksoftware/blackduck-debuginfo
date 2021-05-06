@@ -8,11 +8,11 @@
 # Fetches the system information (debug) screens from Black Duck to help troubleshoot or document settings for safe keeping.  Has a dependency on curl and jq.
 #
 # Usage:
-# ./blackduck_debug.sh -u https://myblackduck -a <api_token> -f <output_file.txt>
+# ./blackduck_debug.sh -u https://<blackduck-url> -a <api_token> -f <output_file.txt>
 #
 #
 # Example:
-# ./blackduck_debug.sh -u https://52.213.63.29 -a MDFiY2RkN2QtYjk3MS00YmQzLThjNTItODEyMzk3YTI5YWI2OjJmYTE3ZDA1LTlmYzctNDA0My1iNjk0LWQ0YWFlMWFmMzZjNg== -f debug.txt
+# ./blackduck_debug.sh -u https://myblackduck -a <api_token> -f debug.txt
 #
 
 # Globals for input
