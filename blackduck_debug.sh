@@ -22,7 +22,8 @@ OUTPUT_FILE=""
 DEBUG_MODE=false
 
 # The debug groups ui/debug?group=<group> from the UI.  
-declare -a DEBUG_GROUPS=("db" "dbschema" "job" "manifest" "metrics" "prop" "redis-cache" "scan" "scanpurgejob" "system" "usage%3A%20project" "usage%3A%20scan%20completion")
+declare -a DEBUG_GROUPS=("db" "dbschema" "job" "jobhistory" "jobruntime" "jobscheduler" "jobstatistics" "manifest" "metrics" "prop" "redis-cache" "scan" "scanpurgejob" "system" "usage%3A%20project" "usage%3A%20rapid%20scan%20completion" "usage%3A%20scan%20completion")
+
 TOTAL_OUTPUT=""
 
 # As long as there is at least one more argument, keep looping
